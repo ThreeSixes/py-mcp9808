@@ -16,7 +16,7 @@ class mcp9808:
     """
     mcp9808 is a class that supports communication with an I2C-connected Microchip MCP9808 thermometer. The constructor for this class accepts one argement:
 
-    mcp9808Addr: The I2C address of the sensor, but will default to 0 if it's not specified.
+    mcp9808Addr: The I2C address of the sensor, but will default to 0x18 if it's not specified.
     """
 
     # The themometer config variables are based on the MCP9808 datasheet
